@@ -19,4 +19,4 @@ console.log(`Nome do vinho: ${nomeVinho}`);
 console.log(`Tipo: ${tipoVinho}`);
 console.log(`Safra: ${safraVinho}`);
 console.log(`Quantidade em estoque: ${quantidadeEstoque}`);
-console.log("==============================");
+console.log("=============================");

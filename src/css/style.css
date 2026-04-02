@@ -1,0 +1,77 @@
+/* 1. Configurações Gerais (Reset) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Cores que remetem a vinho e sofisticação */
+    background-color: #2c0404; /* Bordô escuro */
+    color: #fdfdfd;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    
+    /* Centralização do conteúdo na tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* 2. Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #d4af37; /* Dourado metálico */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #d4af37;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    max-width: 500px;
+}
+
+/* 3. Container Principal (Onde fica a descrição) */
+main {
+    background-color: rgba(255, 255, 255, 0.05); /* Fundo levemente transparente */
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(212, 175, 55, 0.3); /* Borda dourada sutil */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+section h2 {
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* Responsividade simples */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
+/* final do arquivo */
